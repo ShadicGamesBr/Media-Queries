@@ -1,2 +1,6 @@
 /*Aparelho deitado (modo landscape, modo paisagem)*/
-@charset "UTF-8";
+
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: left bottom;
+}
