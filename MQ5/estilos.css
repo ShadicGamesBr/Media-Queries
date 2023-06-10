@@ -15,7 +15,8 @@ header h1{
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
+    user-select: none;
 }
 menu > ul{
     list-style-type: none;
@@ -31,6 +32,19 @@ menu > ul > li > a{
 }
 menu ul li a:hover{
     background-color: rgba(211, 211, 211, 0.46);
+}
+#clicar{
+    background-color: rgb(56, 56, 56);
+    width: 100vw;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#clicar:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 main{
     width: 90vw;
