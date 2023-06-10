@@ -27,5 +27,5 @@ menu > ul > li > a{
     background-color: rgb(81, 81, 81);
     color: white;
     text-align: center;
-    
+    border-top: 2px solid gray;
 }
